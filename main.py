@@ -16,7 +16,7 @@ class Workstation:
         self.fix_time_mean = fix_time_mean
         self.defect_rate = defect_rate
         self.working = True
-        self.material = 25  # (2) Cada contenedor tiene 25 unidades de material.
+        self.material = 25  # (2) Each station has 25 units of work material
         self.processed_count = 0
         self.total_fix_time = 0
         self.occupancy = 0
